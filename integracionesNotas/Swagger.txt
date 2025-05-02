@@ -1,0 +1,20 @@
+esta documentacion solo funge su proposito como una guia rapida de como hicimos la integracion,
+sin embargo es necesario actualizar el procedimientos en el momento en que se vaya e integrar, en
+un proyecto nuevo 
+
+Empesamos con los pasos:
+
+1. Agrega las dependencias a tu pom.xml (si usas Maven)
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.5.0</version>
+</dependency>
+
+1.5.- una vez agregada la dependencia debes de correc el comando:
+mvn clean install 
+
+2. Ejecuta tu proyecto
+Al iniciar tu app, Swagger estará disponible en la siguiente URL:
+http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui.html
