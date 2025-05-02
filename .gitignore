@@ -1,6 +1,8 @@
 ## section ignore Backend ##
 heimdallauth/HELP.md
 heimdallauth/target/
+heimdallauth/src/main/resources/application.properties 
+heimdallauth/src/main/resources/textgit.txt
 !heimdallauth.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
